@@ -33,7 +33,7 @@ pipeline {
             steps {
                 echo 'Déploiement...de l\'application'
                 //
-                sh 'cp target/*.war /home/ibrahim/Downloads/tomcat9/webapps/'
+                sh 'cp target/*.war /home/ibrahimaj/Downloads/tomcat9/webapps/'
                 echo 'Le fichier WAR a été copié avec succès dans webapps.'
             }
         }
